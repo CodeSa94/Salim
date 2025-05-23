@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Send, Github, Instagram } from 'lucide-react';
 
 const Contact = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -86,40 +85,26 @@ const Contact = () => {
                   <Github className="text-neon-blue" size={18} />
                 </div>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/CodeSa94" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-neon-blue transition-colors duration-300"
                 >
-                  github.com/salim
+                  github.com/CodeSa94
                 </a>
               </div>
               
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full flex items-center justify-center bg-neon-purple/10">
-                  <Linkedin className="text-neon-purple" size={18} />
+                  <Instagram className="text-neon-purple" size={18} />
                 </div>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://instagram.com/codesa94" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-neon-purple transition-colors duration-300"
                 >
-                  linkedin.com/in/salim
-                </a>
-              </div>
-              
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-neon-violet/10">
-                  <Twitter className="text-neon-violet" size={18} />
-                </div>
-                <a 
-                  href="https://twitter.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-neon-violet transition-colors duration-300"
-                >
-                  twitter.com/salim
+                  instagram.com/codesa94
                 </a>
               </div>
             </div>
