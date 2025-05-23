@@ -74,7 +74,7 @@ const Skills = () => {
       title: "AI/ML Tools",
       icon: <BarChart3 className="text-white" size={20} />,
       color: "bg-neon-purple/10",
-      skills: ["TensorFlow", "PyTorch", "OpenCV", "Scikit-learn"],
+      skills: ["TensorFlow", "PyTorch", "OpenCV", "mysql.connector"],
       delay: "0.4s"
     },
     {
@@ -121,7 +121,7 @@ const Skills = () => {
             <div className="space-y-5">
               {[
                 { name: "AI Development", level: 90 },
-                { name: "Full Stack Development", level: 85 },
+                { name: "Full Stack Development", level: 60 },
                 { name: "Computer Vision", level: 80 },
               ].map((skill, index) => (
                 <div key={index} className="space-y-2">
